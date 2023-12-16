@@ -27,8 +27,17 @@ let auth = document.getElementById("author");
 var date = new Date();
 var day = date.getDate();
 
-var month = date.getMonth();
-var totaldays =( (month)*30)+day;
+// var month = date.getMonth();
+   var totaldays;
+   
+if(day < 16) {
+var totaldays = day;
+}
+else {
+  totaldays = 30 - day;
+
+
+}
 console.log(totaldays);
     const quot = data[totaldays].text;
     const authr = data[totaldays].author;
