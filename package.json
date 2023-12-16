@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "chrome-types": "^0.1.180",
+    "jquery": "^3.6.4"
+  }
+}

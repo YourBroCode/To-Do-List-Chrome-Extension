@@ -1,0 +1,29 @@
+{
+    "name":"To-Do list Extension",
+
+"description":"To-Do list Extension",
+
+"version":"0.7.1",
+
+"manifest_version":3,
+
+"background": {
+    "service_worker": "alarms.js"
+},
+
+
+"permissions": ["activeTab" , "storage" ,"notifications", "alarms"],
+
+"action":{
+    "default_popup":"popup.html",
+    "default_icon": "logo4.png"
+},
+"icons": {
+    "48": "logo2.png",
+    "360": "logo4.png"
+}
+
+
+
+
+}
